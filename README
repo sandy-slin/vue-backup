@@ -1,0 +1,5 @@
+1. linux headers
+cd /usr/src
+sudo tar zxvf linux-headers-4.19.97-v7+.tgz
+sudo mkdir -p /lib/modules/4.19.97-v7+
+sudo ln -s /usr/src/linux-headers-4.19.97-v7+ linux-headers-4.19.97-v7+
