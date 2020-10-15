@@ -1,7 +1,7 @@
 #!/bin/bash
 
 kernel=4.19.97-v7+
-driver=8188cu
+driver=8821cu
 
 module_bin="$driver.ko"
 module_dir="/lib/modules/$kernel/kernel/drivers/net/wireless"
